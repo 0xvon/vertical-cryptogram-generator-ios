@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MgF-O3-i0O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Result View Controller-->
+        <scene sceneID="Zx3-3r-KRR">
+            <objects>
+                <viewController id="MgF-O3-i0O" customClass="ResultViewController" customModule="VerticalCryptogramGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ooB-5C-1tC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="HMl-K8-7sJ">
+                                <rect key="frame" x="16" y="89" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Sue-Fh-T8Z"/>
+                                    <constraint firstAttribute="width" secondItem="HMl-K8-7sJ" secondAttribute="height" multiplier="1:1" id="Tl1-sZ-3P2"/>
+                                    <constraint firstAttribute="width" constant="64" id="yIB-dR-rqa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIV-6e-tgr">
+                                <rect key="frame" x="95" y="111" width="104.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-iN-M2J">
+                                <rect key="frame" x="20" y="500" width="109.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="free" translatesAutoresizingMaskIntoConstraints="NO" id="sUa-Qk-GQo">
+                                <rect key="frame" x="0.0" y="169" width="414" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="9DK-PL-qBS"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fch-gj-ste">
+                                <rect key="frame" x="20" y="464" width="74" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kne-KS-jc7">
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                        <state key="normal" image="heart" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Dn-cHg">
+                                        <rect key="frame" x="26" y="0.0" width="22" height="22"/>
+                                        <state key="normal" image="message" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXj-dh-dGC">
+                                        <rect key="frame" x="52" y="0.0" width="22" height="22"/>
+                                        <state key="normal" image="paperplane" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="6Dj-8Q-ACI"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THi-Nq-fgF">
+                                <rect key="frame" x="376.5" y="464" width="17.5" height="22"/>
+                                <state key="normal" image="bookmark" catalog="system"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3QC-3f-epj">
+                                <rect key="frame" x="20" y="531.5" width="374" height="359"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="359" id="mH5-g9-OB6"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="THi-Nq-fgF" firstAttribute="top" secondItem="fch-gj-ste" secondAttribute="top" id="0TA-OG-yJe"/>
+                            <constraint firstItem="sUa-Qk-GQo" firstAttribute="leading" secondItem="ouj-cI-PQH" secondAttribute="leading" id="571-j5-qpx"/>
+                            <constraint firstItem="HMl-K8-7sJ" firstAttribute="top" secondItem="ouj-cI-PQH" secondAttribute="top" constant="45" id="9c7-wR-bZk"/>
+                            <constraint firstItem="fch-gj-ste" firstAttribute="top" secondItem="sUa-Qk-GQo" secondAttribute="bottom" constant="16" id="Elt-Vq-c59"/>
+                            <constraint firstItem="8Uk-iN-M2J" firstAttribute="leading" secondItem="fch-gj-ste" secondAttribute="leading" id="Hrc-ed-Ahr"/>
+                            <constraint firstItem="DIV-6e-tgr" firstAttribute="centerY" secondItem="HMl-K8-7sJ" secondAttribute="centerY" id="Rjd-Ka-G9N"/>
+                            <constraint firstItem="3QC-3f-epj" firstAttribute="top" secondItem="8Uk-iN-M2J" secondAttribute="bottom" constant="11" id="Vx3-E2-fOy"/>
+                            <constraint firstItem="DIV-6e-tgr" firstAttribute="leading" secondItem="HMl-K8-7sJ" secondAttribute="trailing" constant="15" id="W47-y1-1mR"/>
+                            <constraint firstItem="8Uk-iN-M2J" firstAttribute="top" secondItem="fch-gj-ste" secondAttribute="bottom" constant="14" id="beF-eA-4Xe"/>
+                            <constraint firstItem="sUa-Qk-GQo" firstAttribute="trailing" secondItem="ouj-cI-PQH" secondAttribute="trailing" id="css-Yn-Ebs"/>
+                            <constraint firstItem="sUa-Qk-GQo" firstAttribute="top" secondItem="HMl-K8-7sJ" secondAttribute="bottom" constant="16" id="fby-Pr-PK4"/>
+                            <constraint firstItem="HMl-K8-7sJ" firstAttribute="leading" secondItem="ouj-cI-PQH" secondAttribute="leading" constant="16" id="j4q-lZ-bbR"/>
+                            <constraint firstItem="ouj-cI-PQH" firstAttribute="trailing" secondItem="3QC-3f-epj" secondAttribute="trailing" constant="20" id="paj-xK-4qE"/>
+                            <constraint firstItem="3QC-3f-epj" firstAttribute="leading" secondItem="fch-gj-ste" secondAttribute="leading" id="uz3-lX-nnk"/>
+                            <constraint firstItem="ouj-cI-PQH" firstAttribute="trailing" secondItem="THi-Nq-fgF" secondAttribute="trailing" constant="20" id="v0p-Kh-8Ch"/>
+                            <constraint firstItem="fch-gj-ste" firstAttribute="leading" secondItem="ouj-cI-PQH" secondAttribute="leading" constant="20" id="wMa-A8-9Dn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ouj-cI-PQH"/>
+                    </view>
+                    <connections>
+                        <outlet property="profileImageView" destination="HMl-K8-7sJ" id="1BC-9F-PPg"/>
+                        <outlet property="textView" destination="3QC-3f-epj" id="gdA-qg-J2f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nH1-io-DEW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="132.58928571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bookmark" catalog="system" width="56" height="64"/>
+        <image name="free" width="1600" height="1066"/>
+        <image name="heart" catalog="system" width="64" height="54"/>
+        <image name="message" catalog="system" width="64" height="56"/>
+        <image name="paperplane" catalog="system" width="64" height="60"/>
+        <image name="profile" width="285" height="247"/>
+    </resources>
+</document>

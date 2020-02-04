@@ -82,6 +82,14 @@ class VerticalCryptogramGenerator {
 
         // change line
         for i in indexList {
+            if i == 0 {
+                continue
+            }
+            
+            if textArray[i - 1] == "n" {
+                continue
+            }
+            
             textArray[i] = "\n" + String(textArray[i])
         }
 
