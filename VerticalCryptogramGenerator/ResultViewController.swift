@@ -17,6 +17,8 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView?.text = self.text
+        textView?.textContainerInset = UIEdgeInsets.zero
+        textView?.textContainer.lineFragmentPadding = 0
         
         profileImageView.layer.cornerRadius = profileImageView.bounds.height / 2
     }
