@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91E303923E8EEF400F9FCFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E303823E8EEF400F9FCFF /* AppDelegate.swift */; };
+		D91E303B23E8EEF400F9FCFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E303A23E8EEF400F9FCFF /* SceneDelegate.swift */; };
+		D91E303D23E8EEF400F9FCFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E303C23E8EEF400F9FCFF /* ViewController.swift */; };
+		D91E304023E8EEF400F9FCFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91E303E23E8EEF400F9FCFF /* Main.storyboard */; };
+		D91E304223E8EEF700F9FCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91E304123E8EEF700F9FCFF /* Assets.xcassets */; };
+		D91E304523E8EEF700F9FCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D91E303523E8EEF400F9FCFF /* VerticalCryptogramGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalCryptogramGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91E303823E8EEF400F9FCFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91E303A23E8EEF400F9FCFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D91E303C23E8EEF400F9FCFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91E303F23E8EEF400F9FCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91E304123E8EEF700F9FCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91E304423E8EEF700F9FCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91E304623E8EEF700F9FCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91E303223E8EEF400F9FCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91E302C23E8EEF400F9FCFF = {
+			isa = PBXGroup;
+			children = (
+				D91E303723E8EEF400F9FCFF /* VerticalCryptogramGenerator */,
+				D91E303623E8EEF400F9FCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D91E303623E8EEF400F9FCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91E303523E8EEF400F9FCFF /* VerticalCryptogramGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91E303723E8EEF400F9FCFF /* VerticalCryptogramGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				D91E303823E8EEF400F9FCFF /* AppDelegate.swift */,
+				D91E303A23E8EEF400F9FCFF /* SceneDelegate.swift */,
+				D91E303C23E8EEF400F9FCFF /* ViewController.swift */,
+				D91E303E23E8EEF400F9FCFF /* Main.storyboard */,
+				D91E304123E8EEF700F9FCFF /* Assets.xcassets */,
+				D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */,
+				D91E304623E8EEF700F9FCFF /* Info.plist */,
+			);
+			path = VerticalCryptogramGenerator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91E303423E8EEF400F9FCFF /* VerticalCryptogramGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91E304923E8EEF700F9FCFF /* Build configuration list for PBXNativeTarget "VerticalCryptogramGenerator" */;
+			buildPhases = (
+				D91E303123E8EEF400F9FCFF /* Sources */,
+				D91E303223E8EEF400F9FCFF /* Frameworks */,
+				D91E303323E8EEF400F9FCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalCryptogramGenerator;
+			productName = VerticalCryptogramGenerator;
+			productReference = D91E303523E8EEF400F9FCFF /* VerticalCryptogramGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91E302D23E8EEF400F9FCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Masato TSUTSUMI";
+				TargetAttributes = {
+					D91E303423E8EEF400F9FCFF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D91E303023E8EEF400F9FCFF /* Build configuration list for PBXProject "VerticalCryptogramGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91E302C23E8EEF400F9FCFF;
+			productRefGroup = D91E303623E8EEF400F9FCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91E303423E8EEF400F9FCFF /* VerticalCryptogramGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91E303323E8EEF400F9FCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91E304523E8EEF700F9FCFF /* LaunchScreen.storyboard in Resources */,
+				D91E304223E8EEF700F9FCFF /* Assets.xcassets in Resources */,
+				D91E304023E8EEF400F9FCFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91E303123E8EEF400F9FCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91E303D23E8EEF400F9FCFF /* ViewController.swift in Sources */,
+				D91E303923E8EEF400F9FCFF /* AppDelegate.swift in Sources */,
+				D91E303B23E8EEF400F9FCFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D91E303E23E8EEF400F9FCFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91E303F23E8EEF400F9FCFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91E304423E8EEF700F9FCFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D91E304723E8EEF700F9FCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D91E304823E8EEF700F9FCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D91E304A23E8EEF700F9FCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WL9GUCS6V;
+				INFOPLIST_FILE = VerticalCryptogramGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masatsch.VerticalCryptogramGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91E304B23E8EEF700F9FCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WL9GUCS6V;
+				INFOPLIST_FILE = VerticalCryptogramGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = masatsch.VerticalCryptogramGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91E303023E8EEF400F9FCFF /* Build configuration list for PBXProject "VerticalCryptogramGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91E304723E8EEF700F9FCFF /* Debug */,
+				D91E304823E8EEF700F9FCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91E304923E8EEF700F9FCFF /* Build configuration list for PBXNativeTarget "VerticalCryptogramGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91E304A23E8EEF700F9FCFF /* Debug */,
+				D91E304B23E8EEF700F9FCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91E302D23E8EEF400F9FCFF /* Project object */;
+}
