@@ -13,6 +13,7 @@
 		D91E304023E8EEF400F9FCFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91E303E23E8EEF400F9FCFF /* Main.storyboard */; };
 		D91E304223E8EEF700F9FCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91E304123E8EEF700F9FCFF /* Assets.xcassets */; };
 		D91E304523E8EEF700F9FCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */; };
+		D91E304D23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E304C23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D91E304123E8EEF700F9FCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91E304423E8EEF700F9FCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91E304623E8EEF700F9FCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91E304C23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCryptogramGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D91E304123E8EEF700F9FCFF /* Assets.xcassets */,
 				D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */,
 				D91E304623E8EEF700F9FCFF /* Info.plist */,
+				D91E304C23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift */,
 			);
 			path = VerticalCryptogramGenerator;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				D91E303D23E8EEF400F9FCFF /* ViewController.swift in Sources */,
 				D91E303923E8EEF400F9FCFF /* AppDelegate.swift in Sources */,
 				D91E303B23E8EEF400F9FCFF /* SceneDelegate.swift in Sources */,
+				D91E304D23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
