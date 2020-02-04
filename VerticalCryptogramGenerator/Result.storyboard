@@ -15,58 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="HMl-K8-7sJ">
-                                <rect key="frame" x="16" y="89" width="64" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="Sue-Fh-T8Z"/>
-                                    <constraint firstAttribute="width" secondItem="HMl-K8-7sJ" secondAttribute="height" multiplier="1:1" id="Tl1-sZ-3P2"/>
-                                    <constraint firstAttribute="width" constant="64" id="yIB-dR-rqa"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIV-6e-tgr">
-                                <rect key="frame" x="95" y="111" width="104.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-iN-M2J">
-                                <rect key="frame" x="20" y="500" width="109.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="free" translatesAutoresizingMaskIntoConstraints="NO" id="sUa-Qk-GQo">
-                                <rect key="frame" x="0.0" y="169" width="414" height="279"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="279" id="9DK-PL-qBS"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fch-gj-ste">
-                                <rect key="frame" x="20" y="464" width="74" height="22"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kne-KS-jc7">
-                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
-                                        <state key="normal" image="heart" catalog="system"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Dn-cHg">
-                                        <rect key="frame" x="26" y="0.0" width="22" height="22"/>
-                                        <state key="normal" image="message" catalog="system"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXj-dh-dGC">
-                                        <rect key="frame" x="52" y="0.0" width="22" height="22"/>
-                                        <state key="normal" image="paperplane" catalog="system"/>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="74" id="6Dj-8Q-ACI"/>
-                                </constraints>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THi-Nq-fgF">
-                                <rect key="frame" x="376.5" y="464" width="17.5" height="22"/>
-                                <state key="normal" image="bookmark" catalog="system"/>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3QC-3f-epj">
-                                <rect key="frame" x="20" y="531.5" width="374" height="359"/>
+                                <rect key="frame" x="20" y="519.5" width="374" height="359"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="359" id="mH5-g9-OB6"/>
@@ -76,12 +26,70 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="HMl-K8-7sJ">
+                                <rect key="frame" x="16" y="89" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Sue-Fh-T8Z"/>
+                                    <constraint firstAttribute="width" secondItem="HMl-K8-7sJ" secondAttribute="height" multiplier="1:1" id="Tl1-sZ-3P2"/>
+                                    <constraint firstAttribute="width" constant="50" id="yIB-dR-rqa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIV-6e-tgr">
+                                <rect key="frame" x="81" y="104" width="104.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="masatojames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uk-iN-M2J">
+                                <rect key="frame" x="20" y="488" width="109.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="free" translatesAutoresizingMaskIntoConstraints="NO" id="sUa-Qk-GQo">
+                                <rect key="frame" x="0.0" y="155" width="414" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="9DK-PL-qBS"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="fch-gj-ste">
+                                <rect key="frame" x="20" y="450" width="80" height="24"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kne-KS-jc7">
+                                        <rect key="frame" x="0.0" y="0.0" width="20.5" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" image="heart" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-Dn-cHg">
+                                        <rect key="frame" x="29.5" y="0.0" width="21" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" image="message" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXj-dh-dGC">
+                                        <rect key="frame" x="59.5" y="0.0" width="20.5" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" image="paperplane" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="6Dj-8Q-ACI"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THi-Nq-fgF">
+                                <rect key="frame" x="376.5" y="450" width="17.5" height="22"/>
+                                <state key="normal" image="bookmark" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig6-oq-ucg">
+                                <rect key="frame" x="375" y="103" width="19" height="22"/>
+                                <state key="normal" image="ellipsis" catalog="system"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="THi-Nq-fgF" firstAttribute="top" secondItem="fch-gj-ste" secondAttribute="top" id="0TA-OG-yJe"/>
                             <constraint firstItem="sUa-Qk-GQo" firstAttribute="leading" secondItem="ouj-cI-PQH" secondAttribute="leading" id="571-j5-qpx"/>
                             <constraint firstItem="HMl-K8-7sJ" firstAttribute="top" secondItem="ouj-cI-PQH" secondAttribute="top" constant="45" id="9c7-wR-bZk"/>
+                            <constraint firstItem="ig6-oq-ucg" firstAttribute="centerY" secondItem="DIV-6e-tgr" secondAttribute="centerY" id="Bga-zB-stl"/>
                             <constraint firstItem="fch-gj-ste" firstAttribute="top" secondItem="sUa-Qk-GQo" secondAttribute="bottom" constant="16" id="Elt-Vq-c59"/>
                             <constraint firstItem="8Uk-iN-M2J" firstAttribute="leading" secondItem="fch-gj-ste" secondAttribute="leading" id="Hrc-ed-Ahr"/>
                             <constraint firstItem="DIV-6e-tgr" firstAttribute="centerY" secondItem="HMl-K8-7sJ" secondAttribute="centerY" id="Rjd-Ka-G9N"/>
@@ -91,6 +99,7 @@
                             <constraint firstItem="sUa-Qk-GQo" firstAttribute="trailing" secondItem="ouj-cI-PQH" secondAttribute="trailing" id="css-Yn-Ebs"/>
                             <constraint firstItem="sUa-Qk-GQo" firstAttribute="top" secondItem="HMl-K8-7sJ" secondAttribute="bottom" constant="16" id="fby-Pr-PK4"/>
                             <constraint firstItem="HMl-K8-7sJ" firstAttribute="leading" secondItem="ouj-cI-PQH" secondAttribute="leading" constant="16" id="j4q-lZ-bbR"/>
+                            <constraint firstItem="ouj-cI-PQH" firstAttribute="trailing" secondItem="ig6-oq-ucg" secondAttribute="trailing" constant="20" id="j7i-Ld-nEL"/>
                             <constraint firstItem="ouj-cI-PQH" firstAttribute="trailing" secondItem="3QC-3f-epj" secondAttribute="trailing" constant="20" id="paj-xK-4qE"/>
                             <constraint firstItem="3QC-3f-epj" firstAttribute="leading" secondItem="fch-gj-ste" secondAttribute="leading" id="uz3-lX-nnk"/>
                             <constraint firstItem="ouj-cI-PQH" firstAttribute="trailing" secondItem="THi-Nq-fgF" secondAttribute="trailing" constant="20" id="v0p-Kh-8Ch"/>
@@ -110,6 +119,7 @@
     </scenes>
     <resources>
         <image name="bookmark" catalog="system" width="56" height="64"/>
+        <image name="ellipsis" catalog="system" width="64" height="18"/>
         <image name="free" width="1600" height="1066"/>
         <image name="heart" catalog="system" width="64" height="54"/>
         <image name="message" catalog="system" width="64" height="56"/>
