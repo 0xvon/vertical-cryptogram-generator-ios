@@ -18,7 +18,7 @@
 4. Perfect. The cryptogram will be automatically created.
 
 
-<img src="./production.gif" width=700>
+<img src="./production.gif" width=500>
 
 <br>
 
