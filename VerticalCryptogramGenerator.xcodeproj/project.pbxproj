@@ -64,6 +64,7 @@
 			children = (
 				D91E303823E8EEF400F9FCFF /* AppDelegate.swift */,
 				D91E303A23E8EEF400F9FCFF /* SceneDelegate.swift */,
+				D91E304C23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift */,
 				D91E303C23E8EEF400F9FCFF /* ViewController.swift */,
 				D91E305523E9431100F9FCFF /* ResultViewController.swift */,
 				D91E305723E9432F00F9FCFF /* Result.storyboard */,
@@ -71,7 +72,6 @@
 				D91E304123E8EEF700F9FCFF /* Assets.xcassets */,
 				D91E304323E8EEF700F9FCFF /* LaunchScreen.storyboard */,
 				D91E304623E8EEF700F9FCFF /* Info.plist */,
-				D91E304C23E8EF2200F9FCFF /* VerticalCryptogramGenerator.swift */,
 			);
 			path = VerticalCryptogramGenerator;
 			sourceTree = "<group>";
